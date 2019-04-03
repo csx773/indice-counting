@@ -3,7 +3,7 @@ function indiceCounting (str){
   //then use join() to put it all together in string again
   var inputString = str.split(' ').join('');
   var result = {};
-  console.log('inputString is: ', inputString);
+  //console.log('inputString is: ', inputString);
 
 
   for (var i = 0; i < inputString.length; i++) {
